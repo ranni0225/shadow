@@ -1,0 +1,31 @@
+{
+    "arrowParens": "always",
+    "bracketSameLine": true,
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "off",
+    "endOfLine": "auto",
+    "htmlWhitespaceSensitivity": "strict",
+    "insertPragma": false,
+    "jsxSingleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "preserve",
+    "quoteProps": "consistent",
+    "requirePragma": false,
+    "semi": false,
+    "singleAttributePerLine": true,
+    "singleQuote": false,
+    "tabWidth": 4,
+    "trailingComma": "none",
+    "useTabs": false,
+    "vueIndentScriptAndStyle": false,
+    "xmlQuoteAttributes": "double",
+    "xmlSelfClosingSpace": false,
+    "xmlSortAttributesByKey": false,
+    "xmlWhitespaceSensitivity": "preserve",
+    "overrides":
+        [
+            { "files": ["*.axaml", "*.csproj", "*.manifest", "*.props", "*.slnx", "*.vcxproj", "*.vcxproj.filters", "*.xaml"], "options": { "parser": "xml" } },
+            { "files": [".clang-format"], "options": { "parser": "yaml" } },
+            { "files": ["fonts.conf"], "options": { "parser": "xml" } }
+        ]
+}

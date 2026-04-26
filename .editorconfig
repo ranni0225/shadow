@@ -1,0 +1,13 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+tab_width = 4
+trim_trailing_whitespace = true
+
+[{*.{ps1},*.{c,cc,cpp,cxx,h,hh,hpp,hxx,ixx,inl},*.hint}]
+charset = utf-8-bom
