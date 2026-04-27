@@ -9,5 +9,5 @@ insert_final_newline = true
 tab_width = 4
 trim_trailing_whitespace = true
 
-[{*.{ps1},*.{c,cc,cpp,cxx,h,hh,hpp,hxx,ixx,inl},*.hint}]
+[{*.{ps1},*.{c,cc,cpp,cxx,h,hh,hpp,hxx,ixx,inl},*.{vcxproj,vcxproj.filters},*.hint}]
 charset = utf-8-bom
